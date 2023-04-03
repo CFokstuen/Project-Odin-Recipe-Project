@@ -1,0 +1,126 @@
+* {
+    transition: 0.1s;
+    font-family: Georgia, sans-serif;
+}
+body {
+    margin: 0;
+    height: 100%;
+}
+#body-form {
+    margin-left: 50px;
+}
+a {
+    color: grey;
+    text-decoration: none;
+    font-weight: 500;
+}
+h1 {
+    color: rgb(255, 253, 208);
+    text-align: center;
+}
+h2 {
+    color: rgb(0,0,0);
+    text-align:left;
+}
+a:hover {
+    color: rgb(255, 174, 0);
+}
+#start {
+    background-color: rgb(255, 253, 208);
+    padding: 10px 20px 10px 20px;
+    border-radius: 6px;
+}
+.item-description {
+    width: 70%;
+}
+.recipe-name {
+    font-style: oblique;
+    font-size: large;
+    margin-bottom: 5px;
+}
+.recipe-description {
+    margin-top: 10px;
+    color: grey;
+}
+#main {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 174, 0);
+}
+#banner {
+    background-image: url("https://preview.redd.it/o9ri3kqhyas31.jpg?auto=webp&s=bfcf9f5dac9214905520b1fb63d0948c7bc96240");
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+}
+#cover {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.336);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+#recipes {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card {
+    width: 200px;
+    height: 280px;
+    background-color: rgb(252, 173, 68);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+.card-img {
+    height: 200px;
+    width: 90%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 6px;
+}
+#recipe-img1 {
+    background-image: url("https://th.bing.com/th/id/OIP.iurmofZiYADrWZ2le-hnRwHaLH?pid=ImgDet&rs=1");
+}
+#recipe-img2 {
+    background-image: url("https://amyinthekitchen.com/wp-content/uploads/2019/10/Instant-Pot-Beef-Stew-Recipe-7.jpg");
+}
+#recipe-img3 {
+    background-image: url("https://th.bing.com/th/id/R.fd74ba99f95756bbc7d14fa43b661cda?rik=jc0M7BRySxBJnA&riu=http%3a%2f%2ffarm4.staticflickr.com%2f3588%2f3378064040_b79edc9d08_z.jpg%3fzz%3d1&ehk=lVfc50%2bdPMKbEzYNnhI1Kt3DAavGrLSbAj%2fG3xvzOdA%3d&risl=&pid=ImgRaw&r=0");
+}
+#recipe-img4 {
+    background-image: url("https://th.bing.com/th/id/OIP.dnkY5V5So3UTd-Ty0IgY_QHaLH?w=204&h=306&c=7&r=0&o=5&pid=1.7");
+}
+#recipe-img5 {
+    background-image: url("https://carmyy.com/wp-content/uploads/2017/05/soup-3-290x290.jpg");
+}
+footer {
+    height: 40px;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+}
+footer p {
+    color: rgb(255, 253, 208);
+}
+@media (max-width: 480px) {
+    .card{
+        width: 140px;
+        height: 230px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
